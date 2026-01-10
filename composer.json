@@ -1,0 +1,17 @@
+{
+    "name": "unity-care/v2",
+    "description": "Unity Care V2 Medical Management System",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "UnityCare\\App\\": "app/",
+            "UnityCare\\Controllers\\": "app/Controllers/",
+            "UnityCare\\Models\\": "app/Models/",
+            "UnityCare\\Services\\": "app/Services/",
+            "UnityCare\\Repositories\\": "app/Repositories/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
